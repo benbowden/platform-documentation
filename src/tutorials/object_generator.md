@@ -6,6 +6,22 @@ tags:
     - Reference
 ---
 # The Object Generator
+As the name suggest, the Object Generator creates objects. You can use it for things such as creating a landscape of randomized colored trees, a terrain filled with beautiful flowers, or even just an entire terrain with randomly scaled bananas. No more copy/pasting objects and then trying to randomize the look and feel of them, this tool will do it all for you at the click of a button.
+
+# Quick Start
+Load up the Object Generator within Core by going to **View -> Object Generator**. Next, go to **Core Content**, and pick out an object that'll act as the area in which you want your objects created and then place that within the Hierarchy or Main Viewport. You can choose a cube, plane, sphere, any option within Core Content. In our case, let's choose a **Cube**.
+https://imgur.com/rhyTKyd
+
+Now position it high in the sky and scale it to the width and height you desire for your objects to spawn within.
+https://imgur.com/EsY8XN8
+
+Now comes the fun part, select an object within Core Content that you want spawned everywhere, let's choose the **Tree Birch 02**. Finally, select the **Tree Birch 02** within Core Content & the **Cube** in your Hierarchy, and all that's left to do is to go to the Object Generator window and select "Spawn Selected Asset Under Selected Hierarchy Object". 
+
+https://imgur.com/9FapmeY
+
+https://imgur.com/FnmPXzO
+
+
 
 ## Customizing the Object Generator
 
