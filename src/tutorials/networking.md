@@ -134,7 +134,7 @@ A **Static Context** is a third special kind of folder that you can create, by r
 They share traits with both networked and non-networked objects, and they have a few rules:
 
 - Scripts in a static context run on both the client and the server.
-- Scripts can spawn objects into the static context, but after they are spawned, they behave like non-networked default context objects, and cannot be modified or deleted.
+- Scripts can spawn objects into the static context and can be destroyed later but can't be moved.
 - Objects spawned are not sent over the network, so the client and server scripts should make sure to spawn the same objects.
 
 The main use for this context is in creating procedural geometry. If both the server and the client build a level from a common random scene, this becomes an efficient way to make procedural levels that are syncronized between the clients and the server.
